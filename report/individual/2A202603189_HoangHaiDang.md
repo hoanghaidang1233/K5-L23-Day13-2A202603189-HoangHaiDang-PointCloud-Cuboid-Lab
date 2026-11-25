@@ -17,11 +17,11 @@ Cách dùng CVAT: kéo chuột trái để xoay, chuột phải để dời, con
 | s01f18 | Cạnh trên (−y, khớp cam01); +x sang trái, +y xuống dưới | Phẳng, thấp hơn LiDAR ~1,7 m | ~37 m, xe con trước-trái | Xe con, xe buýt, dải cây giữa đường | Sau: 3 xe con (11–25 m); trái: 2 xe sau dải cây | Dải điểm thấp dọc hai mép đường (bụi cây hay rào) |
 | s01f53 | Cạnh trên; +x sang trái, +y xuống dưới | Phẳng, thấp hơn LiDAR ~1,75 m | ~16,5 m, xe đạp trước-phải | Xe con dừng chờ, xe đạp có người, người đi bộ | Sau: 2 xe con (6,5 m, 16 m); phải: 2 xe đạp, 2 người trên vỉa hè | Dãy xe đạp dựng không người (cam07), không vẽ |
 
-Chỉ camera cho biết: màu và loại xe (xe buýt, taxi); vạch kẻ, mũi tên làn, biển báo; đầu/đuôi xe và người đang đạp hay dắt xe. Chỉ LiDAR cho biết: khoảng cách bằng mét (xe đạp 10,0 m, xe xa nhất 37,4 m); kích thước thật (xe buýt dài ~12,4 m) và mặt đường ở ~−1,7 m; vật bị che trên ảnh vẫn còn điểm (xe sau dải cây ở s01f18 có 187–456 điểm).
+Chỉ camera cho biết: màu và loại xe (xe buýt, taxi); vạch kẻ, mũi tên làn, biển báo; đầu/đuôi xe và người đang đạp hay dắt xe. Chỉ LiDAR cho biết: khoảng cách bằng mét (xe đạp 10,0 m, xe xa nhất 37,4 m); kích thước thật (xe buýt dài ~12,4 m) và mặt đường ở ~−1,7 m; vật bị che trên ảnh vẫn còn điểm (xe sau dải cây ở s01f18 có 187–456 điểm). Hướng không camera nào thấy: ngay ngang hông hai bên xe (≈ ±90°) và vùng sát thân xe, vì camera hai bên lắp chéo về trước (cam06, cam07) hoặc về sau (cam05, cam08) và mép ảnh bị chính thân xe che; LiDAR vẫn phủ 360°.
 
 | Frame lướt | Phía trước | Điều lạ |
 |---|---|---|
-| s02f40 | Cạnh trên | Gần nút giao, 2 xe sau-trái chạy ngang (yaw ~0°/360°) |
+| s02f40 | Cạnh trên | Gần nút giao, 2 xe sau-phải chạy ngang (yaw ~0°/360°) |
 | s02f55 | Cạnh trên | Đường cong, cây che dày, chỉ 4 xe |
 | s03f08 | Cạnh trên | Xe nối đuôi; xe tối màu ít điểm trên kính, nóc |
 | s03f51 | Cạnh trên | Xe idx 5 bị cờ chìm, có thể do mặt đất cục bộ là dải phân cách |
